@@ -9,3 +9,13 @@ body {
     background-image: url('snow_path.jpeg');
     background-size: cover;
 }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+.right > div {
+    flex-basis: 33%;
+}
