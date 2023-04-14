@@ -19,3 +19,10 @@ body {
 .right > div {
     flex-basis: 33%;
 }
+
+#create-account {
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: rgb(46, 95, 217);
+    color: white;
+}
