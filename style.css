@@ -26,3 +26,12 @@ body {
     background-color: rgb(46, 95, 217);
     color: white;
 }
+
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fields > form {
+    flex-basis: 50%;
+}
