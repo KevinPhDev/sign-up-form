@@ -27,11 +27,21 @@ body {
     color: white;
 }
 
-.fields {
+form {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 15px;
+    padding: 10px;
+    border: 2px solid greenyellow;
 }
 
-.fields > form {
+.field {
     flex-basis: 50%;
 }
+
+label, input {
+    display: block;
+}
+
+
+
