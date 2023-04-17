@@ -32,7 +32,6 @@ form {
     flex-wrap: wrap;
     row-gap: 15px;
     padding: 10px;
-    border: 2px solid greenyellow;
 }
 
 .field {
